@@ -13,12 +13,24 @@ public class NestedCircle {
     private int length;
     private float xTrans;
     private float yTrans;
+    private int posX;
+    private int posY;
 
-    public NestedCircle(PApplet processing, int[] localColors) {
+    public NestedCircle(PApplet processing, int[] localColors, float xSize, float ySize) {
+        setup(processing, localColors, xSize, ySize);
+    }
+
+    public NestedCircle(PApplet processing, int[] localColors, int posX, int posY, float xSize, float ySize) {
+        setup(processing, localColors, xSize, ySize);
+        this.posX = posX;
+        this.posY = posY;
+    }
+
+    private void setup(PApplet processing, int[] localColors, float xSize, float ySize) {
+        this.xSize = xSize;
+        this.ySize = ySize;
         this.processing = processing;
         this.localColors = localColors;
-        //innerOffsetX =  processing.random(1);
-        //innerOffsetY =  processing.random(1);
         innerScalePercent = (processing.random(20) + 60) / 100;
         length = (int) processing.random(2) + 3;
 
@@ -29,18 +41,17 @@ public class NestedCircle {
             }
             localInnerColors[i] = localColors[r];
         }
-
     }
 
-    public void draw(float xSize, float ySize) {
-        this.xSize = xSize;
-        this.ySize = xSize;
+
+    public void draw(Main main) {
+
 
         if (!isArray) {
             processing.fill(localColors[0]);
-            processing.ellipse(0, 0, xSize, ySize);
+            processing.ellipse(0 + posX, 0 + posY, xSize * main.getxScaler(), ySize * main.getxScaler());
             processing.fill(localInnerColors[1]);
-            processing.ellipse(0, 0, xSize * innerScalePercent, ySize * innerScalePercent);
+            processing.ellipse(0 + posX, 0 + posY, xSize * innerScalePercent * main.getxScaler(), ySize * innerScalePercent * main.getxScaler());
         } else {
 
             for (int i = 0; i < length; i++) {
@@ -48,21 +59,19 @@ public class NestedCircle {
                 processing.fill(localColors[i]);
                 processing.ellipse(0, 0, 100, 100);
                 processing.fill(localInnerColors[length - i]);
-                processing.ellipse(0, 0, xSize * innerScalePercent, ySize * innerScalePercent);
-                processing.translate(xTrans * xSize, yTrans * ySize);
+                processing.ellipse(0, 0, xSize * innerScalePercent * main.getxScaler(), ySize * innerScalePercent * main.getxScaler());
+                processing.translate(xTrans * xSize * main.getxScaler(), yTrans * ySize * main.getxScaler());
             }
             for (int i = 0; i < length; i++) {
                 processing.popMatrix();
             }
         }
-        //System.out.println(length);
         isArray = false;
-
     }
 
     public void doArray(int xPos, int yPos) {
         isArray = true;
-        if (yPos < 50) yTrans = 1.5f;
+        if (yPos < 50) yTrans = 1.55f;
         else if (yPos > 50) yTrans = -1;
     }
 }

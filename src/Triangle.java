@@ -19,7 +19,7 @@ public class Triangle {
 
     ArrayList<PVector> makeShape() {
         ArrayList<PVector> vertices = new ArrayList<PVector>();
-        vertices.add(new PVector(1, 0));
+        vertices.add(new PVector(0.732f, 0));
         vertices.add(new PVector(-1, -1));
         vertices.add(new PVector(-1, 1));
         return vertices;
