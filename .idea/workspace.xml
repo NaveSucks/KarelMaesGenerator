@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a212d0d-a860-48bb-b9b3-15505b2630dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/3D_Computergrafik_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/CheckerBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/CheckerBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/ColorScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/ColorScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/NestedCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/NestedCircle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheckerBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckerBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColorScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorScheme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NestedCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NestedCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +18,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+            <state relative-caret-position="4301">
+              <caret line="265" selection-start-line="265" selection-end-line="265" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6344#6345#0" expanded="true" />
                 <element signature="e#6374#6375#0" expanded="true" />
+                <element signature="e#6407#6408#0" expanded="true" />
                 <element signature="e#6437#6438#0" expanded="true" />
               </folding>
             </state>
@@ -40,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NestedCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
+            <state relative-caret-position="1241">
               <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
             </state>
           </provider>
@@ -49,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parallelogram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
+            <state relative-caret-position="629">
               <caret line="43" column="41" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ColorScheme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#505#506#0" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
@@ -200,8 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,12 +217,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573169526237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573169741771" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/processing-3.5.3/core/library/jogl-all.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -279,7 +273,8 @@
       <workItem from="1573058048341" duration="29999000" />
       <workItem from="1573147809347" duration="8595000" />
       <workItem from="1573157423638" duration="86000" />
-      <workItem from="1573161332384" duration="8184000" />
+      <workItem from="1573161332384" duration="8411000" />
+      <workItem from="1573219413573" duration="819000" />
     </task>
     <task id="LOCAL-00001" summary="added processing libraries">
       <created>1571915519271</created>
@@ -295,17 +290,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573089941019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sum moar stuf">
+      <created>1573169545215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573169545215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72549000" />
+    <option name="totallyTimeSpent" value="73595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -314,7 +316,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2881907" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40628386" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40628386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,10 +377,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added processing libraries" />
     <MESSAGE value="sum stuf" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum stuf" />
+    <MESSAGE value="sum moar stuf" />
+    <option name="LAST_COMMIT_MESSAGE" value="sum moar stuf" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../processing-3.5.3/core/library/core.jar!/processing/core/PApplet.class" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4301">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6344#6345#0" expanded="true" />
+            <element signature="e#6374#6375#0" expanded="true" />
+            <element signature="e#6407#6408#0" expanded="true" />
+            <element signature="e#6437#6438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NestedCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parallelogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Slant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -393,6 +427,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheckerBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -417,46 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NestedCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parallelogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheckerBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6374#6375#0" expanded="true" />
-            <element signature="e#6437#6438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ColorScheme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#505#506#0" expanded="true" />
             <element signature="e#549#550#0" expanded="true" />
@@ -470,10 +475,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>3D-Computergrafik:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
