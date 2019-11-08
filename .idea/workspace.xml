@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a212d0d-a860-48bb-b9b3-15505b2630dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/3D_Computergrafik_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/CheckerBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/CheckerBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/ColorScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/ColorScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/HalfCircles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/HalfCircles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/HybridPoly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/HybridPoly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/NestedCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/NestedCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/Stripes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/Stripes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3D-Computergrafik/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3D-Computergrafik/Triangle.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ColorScheme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="578">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="e#505#506#0" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
@@ -184,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-2" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -274,7 +280,7 @@
       <workItem from="1573147809347" duration="8595000" />
       <workItem from="1573157423638" duration="86000" />
       <workItem from="1573161332384" duration="8411000" />
-      <workItem from="1573219413573" duration="819000" />
+      <workItem from="1573219413573" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="added processing libraries">
       <created>1571915519271</created>
@@ -297,14 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573169545215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created executable jar">
+      <created>1573220433319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573220433319</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73595000" />
+    <option name="totallyTimeSpent" value="73880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
@@ -378,7 +391,8 @@
     <MESSAGE value="added processing libraries" />
     <MESSAGE value="sum stuf" />
     <MESSAGE value="sum moar stuf" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum moar stuf" />
+    <MESSAGE value="created executable jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="created executable jar" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../processing-3.5.3/core/library/core.jar!/processing/core/PApplet.class" />
@@ -460,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ColorScheme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="578">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="e#505#506#0" expanded="true" />
             <element signature="e#549#550#0" expanded="true" />
